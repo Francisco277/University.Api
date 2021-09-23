@@ -10,6 +10,6 @@ namespace University.BL.DTOs
     {
         public int Code { get; set; }
         public string Message { get; set; }
-        public object Data { get; set; }
+        public dynamic Data { get; set; }
     }
 }

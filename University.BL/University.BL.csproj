@@ -106,6 +106,7 @@
     <Compile Include="Repositories\Implements\CourseRepository.cs" />
     <Compile Include="Repositories\Implements\IStudentRepository.cs" />
     <Compile Include="Repositories\Implements\StudentRepository.cs" />
+    <Compile Include="Services\Implements\ApiService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Models\UniversityModel.edmx">
@@ -135,5 +136,6 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
