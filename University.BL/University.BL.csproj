@@ -56,6 +56,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DTOs\AccountDTO.cs" />
     <Compile Include="DTOs\CourseDTO.cs" />
     <Compile Include="DTOs\DepartmentDTO.cs" />
     <Compile Include="DTOs\InstructorDTO.cs" />
@@ -100,7 +101,7 @@
       <DependentUpon>UniversityModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\GenericRepository.cs" />
+    <Compile Include="Repositories\Implements\GenericRepository.cs" />
     <Compile Include="Repositories\ICourseRepository.cs" />
     <Compile Include="Repositories\IGenericRepository.cs" />
     <Compile Include="Repositories\Implements\CourseRepository.cs" />
