@@ -11,7 +11,7 @@ using University.BL.Repositories.Implements;
 using AutoMapper;
 namespace University.API.Controllers
 {
-    [Authorize]
+    //[Authorize]
     [RoutePrefix("api/Students")]
     public class StudentsController : ApiController
 

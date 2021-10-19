@@ -105,6 +105,8 @@
     <Compile Include="Repositories\ICourseRepository.cs" />
     <Compile Include="Repositories\IGenericRepository.cs" />
     <Compile Include="Repositories\Implements\CourseRepository.cs" />
+    <Compile Include="Repositories\Implements\IInstructorRepository.cs" />
+    <Compile Include="Repositories\Implements\InstructorRepository.cs" />
     <Compile Include="Repositories\Implements\IStudentRepository.cs" />
     <Compile Include="Repositories\Implements\StudentRepository.cs" />
     <Compile Include="Services\Implements\ApiService.cs" />
